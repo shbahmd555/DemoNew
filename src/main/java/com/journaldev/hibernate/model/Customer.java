@@ -39,5 +39,10 @@ public class Customer {
 	public void setTxn(Txn txn) {
 		this.txn = txn;
 	}
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", name=" + name + ", email=" + email + ", address=" + address + ", txn=" + txn
+				+ "]";
+	}
 	
 }
